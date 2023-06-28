@@ -10,3 +10,15 @@ body {
     overflow-x: hidden;
     scroll-behavior: smooth;
 }
+
+footer {
+    width: 100vw;
+}
+
+@media (min-width: 768px) {
+    footer {
+        width: 80%;
+        margin: 20px auto;
+        color: #383838;
+    }
+}
